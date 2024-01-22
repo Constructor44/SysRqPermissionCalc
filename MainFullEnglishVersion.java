@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class MainFullEnglishVersion {
     public static void main(String[] args) {
-        System.out.print("Bitte geben Sie den Rechte-Wert ein: ");
+        System.out.print("Please enter the permission integer: ");
         Scanner sc = new Scanner(System.in);
         int permInt;
         try{
             permInt = sc.nextInt();
         }catch (InputMismatchException e) {
-            System.out.println("Falsche Eingabe!");
+            System.out.println("Wrong input!");
             return;
         }
-        System.out.println("Der Wert " + permInt + " hat folgende Rechte: ");
+        System.out.println("The value " + permInt + " has the following permissions: ");
         ArrayList<Integer> r = getPerms(permInt);
         for (int p : r) {
             System.out.print(p + "\t");

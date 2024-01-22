@@ -4,7 +4,7 @@ based on the following site: https://www.kernel.org/doc/html/latest/admin-guide/
 
 
 How to use:
-1. Make sure you have the java environment and the javac compiler installed on your system
+1. Make sure you have the Java environment and the javac compiler installed on your system
 2. Open a command line at the folder location you put the yourfilename.java file to
 3. Run javac yourfilename.java in the terminal
 4. Start the program by using: java programname in your terminal
